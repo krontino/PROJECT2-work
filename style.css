@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .container input[type=text] {
+        border: 1px solid black;
+        width: 290px;
+        margin-left: 30px;
+    }
+
+    .tag a {
+        text-decoration: none;
+        color: black;
+        font-size: xx-small;
+        margin-right: 30px;
+    }
+    .container2{
+        height: 35px;
+        width: 100%s;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+
+    }
+    .container2 ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+
+        
+    }
+    .container2 ul li {
+        margin: 12px;
+    }
+    .container2 ul li a {
+        font-size: xx-small;
+        text-decoration: none;
+        
+    }
+    p{
+        font-size: x-small;
+    }
+    TABLE tr td {
+        text-align: center;
+    }
+.images{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+}
+h6{
+    text-align: center;
+}
+a:hover{
+    color: red;
+}
+button{
+    background-color: orange;
+    border: hidden;
+    color: azure;
+    height: 25px;
+}
+.carreg input[type=text]{
+    width: 250px;
+}
+.caroption{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.caroption div{
+    height: 69px;
+    width: 69px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+.caroption div:hover{
+    border: 1px solid royalblue;
+}
+.caroption div img{
+    height: 60px;
+    width: 60px;
+}
+.whysell{
+    margin-top: 50px;
+}
+.registration{
+    border: 1px solid #000;
+    height: 280px;
+}
+.whycar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 170px;
+    padding-right: 70px;
+}
+.carsell{
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+.carsell ul {
+    list-style-type: none;
+    line-height: 30px;
+
+}
+.carsell ul li:hover{
+    background-color: aliceblue;
+}
+.contact{
+    display: flex;
+            align-items: center;
+            justify-content: space-around;
+}
+.contact div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+
+}
+.car{
+    display: flex;
+}
+.car .img-box{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+}
+.car .img-box img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.img1:hover{
+width: 800px;
+transition: 5s;
+}
+.img-box:hover{
+    background-color:black;
+}
+.img-box{
+    color: white;
+}
